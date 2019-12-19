@@ -1,0 +1,46 @@
+{
+  "name": "gcb-api",
+  "description": "Descrição sobre o pacote",
+  "readmeFilename": "README.md" ,
+  "keywords": [
+    "gcb",
+    "api"
+  ],
+  "tags": [
+    "gcb",
+    "api"
+  ],
+  "version": "1.0.0",
+  "author": {
+    "name": "Equipe Gcb"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "consign": "^0.1.6",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jest": "^24.9.0",
+    "knex": "^0.20.4",
+    "mongoose": "^5.8.1",
+    "passport": "^0.4.1",
+    "redis": "^2.8.0",
+    "typescript": "^3.7.3",
+    "yup": "^0.27.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.11.0",
+    "@typescript-eslint/parser": "^2.11.0",
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.19.1"
+  }
+}
